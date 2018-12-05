@@ -20,7 +20,7 @@ fn calculate_frequency(input: &str) -> i32 {
 }
 
 fn get_repeating_frequency(input: &str) -> i32 {
-    let lines: Vec<&str> = input.trim().split("\n").collect();
+    let lines: Vec<&str> = input.split("\n").collect();
     let mut frequencies = HashSet::new();
     let mut frequency = 0;
     frequencies.insert(frequency);
