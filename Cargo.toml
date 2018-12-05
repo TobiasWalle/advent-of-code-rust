@@ -1,0 +1,6 @@
+[package]
+name = "advent-of-code-rust"
+version = "0.1.0"
+authors = ["Tobias Walle <tobias.walle@maibornwolff.de>"]
+
+[dependencies]
